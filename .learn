@@ -1,0 +1,11 @@
+tags: 
+  - angular
+  - unit testing
+languages:
+  - javascript
+  - karma
+  - jasmine
+frameworks:
+  - angular
+resources: 
+  - 0
