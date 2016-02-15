@@ -8,21 +8,10 @@
 
 Install Jasmine and Karma (download the `package.json` file from this repo and run `npm install` inside your terminal).
 
-Create your directory structure as follows:
+Copy the directory structure from this repo.
 
-- js/
-  - app/
-    - controllers/
-      - ContactController.js
-  - angular.js
-  - angular-mocks.js
-- tests/
-  - ContactController.spec.js
+We've got an existing controller named ContactController. It has properties for a contact - `name`, `title` and `email`.
 
-You can find `angular.js` and `angular-mocks.js` inside this repo.
+Run `karma start` in your command line. You'll notice that the tests are currently failing.
 
-Inside our `ContactController.js` file, create a new controller and add values to allow us to specify a whole contact - such as job title, email, phone number.
-
-Inside our `ContactController.spec.js` file, inject our `ContactController` controller.
-
-Add some tests to ensure the values you set are correct.
+Edit the `ContactController.spec.js` file to test that these properties are their correct values.
