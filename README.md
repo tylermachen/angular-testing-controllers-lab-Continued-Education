@@ -12,6 +12,6 @@ Copy the directory structure from this repo.
 
 We've got an existing controller named ContactController. It has properties for a contact - `name`, `title` and `email`.
 
-Run `karma start` in your command line. You'll notice that the tests are currently failing.
+Run `karma start` in your command line. You'll notice that the tests are currently failing. In this case, our Controller is designed the way we want it - it's our tests that need to be updated!
 
-Edit the `ContactController.spec.js` file to test that these properties are their correct values.
+In the `ContactController.spec.js` file, update the tests to check that the name, title, and email properties are their correct values.
