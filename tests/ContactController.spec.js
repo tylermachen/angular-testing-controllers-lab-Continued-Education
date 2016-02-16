@@ -8,21 +8,21 @@ describe('ContactController', function () {
 	}));
 
 
-	it('name should be Bill Gates', function () {
+	it('should have a name property set to "Bill Gates"', function () {
 		var $scope = {};
 		$controller('ContactController', {$scope: $scope});
 
 		expect($scope.name).toBe('Bill Gates');
 	});
 
-	it('position should be a Founder', function () {
+	it('should have a title set to "Founder"', function () {
 		var $scope = {};
 		$controller('ContactController', {$scope: $scope});
 
 		expect($scope.title).toBe('Founder');
 	});
 
-	it('email should be bill@microsoft.com', function () {
+	it('should have an email set to "bill@microsoft.com"', function () {
 		var $scope = {};
 		$controller('ContactController', {$scope: $scope});
 
